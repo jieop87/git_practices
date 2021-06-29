@@ -1,9 +1,13 @@
 #include <stdio.h>
 #define N 10
 
+//平均分
 float socre_avg(int *score);
+//冒泡排序（升序）
 void buble_sort(int *score);
+//最大值
 float score_max(int *score);
+//最小值
 float score_min(int *score);
 
 int main(void)
